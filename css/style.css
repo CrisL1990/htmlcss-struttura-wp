@@ -1,0 +1,89 @@
+/*Inizio common*/
+*{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+header, main{
+    width: 90%;
+    margin: auto;
+}
+/*Fine common*/
+
+/*Inizio header*/
+header{
+    height: 80px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+/*Inizio header*/
+
+/*Inizio main*/
+main{
+    position: relative;
+    height: 1500px;
+}
+/*Fine main*/
+
+/*Inizio banner*/
+.banner{
+    width: 100%;
+    height: 35%;
+    background-color: sandybrown;
+}
+/*Fine banner*/
+
+
+/*Inizio content*/
+.content{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 162, 255, 0.952);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+
+}
+
+.float-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-header{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}
+
+.left-box{
+    float: left;
+}
+
+.right-box{
+    float: right;
+}
+
+.central-box{
+    float: left;
+    width: 56%;
+    margin: 0% 2%;
+    
+}
+
+.left-box, .right-box, .central-box{
+    background-color: aqua;
+    height: 86%;
+}
+
+.left-box, .right-box{
+    width: 20%;
+}
+/*Fine content*/
+
+/*Inizio footer*/
+footer{
+    height: 80px;
+    background-color: blueviolet;
+}
+/*Fine footer*/
