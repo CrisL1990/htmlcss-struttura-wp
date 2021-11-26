@@ -21,14 +21,14 @@ header{
 /*Inizio main*/
 main{
     position: relative;
-    height: 1500px;
+    height: 1000px;
 }
 /*Fine main*/
 
 /*Inizio banner*/
 .banner{
     width: 100%;
-    height: 35%;
+    height: 30%;
     background-color: sandybrown;
 }
 /*Fine banner*/
@@ -37,9 +37,9 @@ main{
 /*Inizio content*/
 .content{
     width: 100%;
-    height: 40%;
+    height: 45%;
     background-color: rgba(0, 162, 255, 0.952);
-    padding-bottom: 15px;
+    padding-bottom: 2%;
     margin-bottom: 10px;
 
 }
@@ -54,6 +54,7 @@ main{
     width: 100%;
     height: 10%;
     background-color: aqua;
+    margin-bottom: 2%;
 }
 
 .left-box{
@@ -73,7 +74,7 @@ main{
 
 .left-box, .right-box, .central-box{
     background-color: aqua;
-    height: 86%;
+    height: 85%;
 }
 
 .left-box, .right-box{
@@ -83,7 +84,7 @@ main{
 
 /*Inizio footer*/
 footer{
-    height: 80px;
+    height: 70px;
     background-color: blueviolet;
 }
 /*Fine footer*/
