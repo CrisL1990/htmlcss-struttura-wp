@@ -14,7 +14,7 @@ header, main, footer{
 header{
     height: 80px;
     background-color: blueviolet;
-    margin-bottom: 15px;
+    margin-bottom: 2%;
 }
 /*Inizio header*/
 
@@ -54,6 +54,7 @@ main{
     width: 100%;
     height: 10%;
     background-color: aqua;
+    margin-bottom: 2%;
     
 }
 
@@ -62,29 +63,32 @@ main{
 }
 
 .right-box{
-    float: right;
+    float:right
 }
 
 .central-box{
-    float: left;
-    width: 56%;
-    margin: 0% 2%;
+   float: left;
+   width: 54%;
+   margin-left: 2%;
+   margin-right: 2%;  
+    
 }
 
 .left-box, .right-box, .central-box{
+    height: 86%;
     background-color: aqua;
-    height: 85%;
+   
 }
 
 .left-box, .right-box{
-    width: 20%;
+   width: 21%;
 }
 /*Fine content*/
 
 /*Inizio footer*/
 footer{
-    margin-top: 5px;
-    height: 70px;
+    margin-top: 1%;
+    height: 50px;
     background-color: blueviolet;
 }
 /*Fine footer*/
